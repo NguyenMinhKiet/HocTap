@@ -1,0 +1,7 @@
+int (int a[],int n, int x) 
+{
+    a[n]=x;
+    i=0;
+    while (a[i]!=x)i++;
+    return i;
+}

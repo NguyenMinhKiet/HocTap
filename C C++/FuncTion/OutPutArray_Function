@@ -1,0 +1,13 @@
+ struct array
+{
+    int n;
+    int *a;
+};
+ 
+ void outPutArray(array p)
+{   
+    for(int i = 0; i < p.n ; i++)
+    {
+        cout<<"a["<<i<<"] = "<<p.a[i]<<endl;
+    }
+}
