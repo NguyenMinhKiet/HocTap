@@ -1,0 +1,9 @@
+git init : create a new branch
+git add <File Name>: add file to git
+git status: check file status
+git commit -m " some thing " : save change to computer
+git log : check
+git remote add origin <link.git>
+git push -u origin master: push data from computer to github
+git pull : get data from github
+git clone <link.git> from github to get data;

@@ -27,11 +27,11 @@ void* thread1 (void* arg){
 	printf("Thread 1 factorial: %d\n",*tmp);
 }
 
+
 void* thread2 (void* arg){
 	int *tmp = (int *) arg;
 	int sum=0;
-	for(int i=1;i<=(*tmp);i++)
-		sum += i;
+	sum = *tmp*(*tmp+1)/2;
 	printf("Thread 2 sum: %d\n",sum);
 }
 
